@@ -26,7 +26,7 @@ class SecondScreen extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(28.0),
         child: Center(
           child: SingleChildScrollView(
             child: Column(
@@ -36,8 +36,8 @@ class SecondScreen extends StatelessWidget {
                 Image.network(
                   photo.thumbnailUrl,
                   fit: BoxFit.cover,
-                  height: screenWidth * 0.8,
-                  width: screenWidth * 0.8,
+                  height: screenWidth * 0.84,
+                  width: screenWidth * 0.84,
                 ),
                 const SizedBox(height: 10),
                 Text(
